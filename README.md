@@ -1,7 +1,6 @@
-#Naam: Kiet Mandjes
-#Naam project: Roiky
+Naam: Kiet Mandjes
+Naam project: Roiky
 
+Ik wil een website maken waar ik kleding verkoop voor mannen, vrouwen en kinderen.
 
-###Ik wil een website maken waar ik kleding verkoop voor mannen, vrouwen en kinderen.
-
-###trello https://trello.com/b/gvUgvYTA/raiky
+trello https://trello.com/b/gvUgvYTA/raiky
