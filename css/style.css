@@ -1,0 +1,76 @@
+/* 
+KLEUREN
+#E9D5DA
+#827397
+#4D4C7D
+#363062 
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    height: 100vh;
+}
+
+body{
+    background: white;
+}
+
+.header, footer{
+    padding: 4rem;
+    background: #827397;
+    color: black;
+    font-size: 3rem;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
+
+nav{
+    width: 100vw;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.ul--header{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ul--footer{
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.mij{
+    pos
+}
+
+a:hover{
+    color: white;
+}
