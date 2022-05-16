@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/44df10ddff.js" crossorigin="anonymous"></script>
+    <title>inloggen</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <ul class="ul--header">
+                <li class="li--header"><a href="index.html">Home</a></li>
+                <li class="li--header"><a href="heren.html">Heren</a></li>
+                <li class="li--header"><a href="vrouwen.html">Vrouwen</a></li>
+                <li class="li--header"><a href="kinderen.html">Kinderen</a></li>
+                <li class="li--header"><a href="kopen.html"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                <li class="li--header"><a href="inloggen.html" class="active"><i class="fa-solid fa-user"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <form id="regForm" action="">
+
+        <h1>Account aanmaken:</h1>
+
+        <!-- One "tab" for each step in the form: -->
+        <div class="tab">Naam:
+            <p><input placeholder="Voornaam" oninput="this.className = ''"></p>
+            <p><input placeholder="Achternaam" oninput="this.className = ''"></p>
+        </div>
+
+        <div class="tab">Contact Info:
+            <p><input placeholder="E-mail" oninput="this.className = ''"></p>
+            <p><input placeholder="Telefoonnummer" oninput="this.className = ''"></p>
+        </div>
+
+        <div class="tab">Geboortedatum:
+            <p><input placeholder="Dag" oninput="this.className = ''"></p>
+            <p><input placeholder="Maand" oninput="this.className = ''"></p>
+            <p><input placeholder="Jaar" oninput="this.className = ''"></p>
+        </div>
+
+        <div class="tab">Login Info:
+            <p><input placeholder="Gebruikersnaam" oninput="this.className = ''"></p>
+            <p><input placeholder="Wachtwoord" oninput="this.className = ''"></p>
+        </div>
+
+        <div style="overflow:auto;">
+            <div style="float:right;">
+                <button type="button" id="prevBtn" class="inlog--button" onclick="nextPrev(-1)">Terug</button>
+                <button type="button" id="nextBtn" class="inlog--button" onclick="nextPrev(1)">Volgende</button>
+            </div>
+        </div>
+
+        <!-- Circles which indicates the steps of the form: -->
+        <div class="knopjes">
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+        </div>
+
+    </form>
+    <footer class="footer">
+        <ul class="ul--footer">
+            <li>
+                socials: <a href="https://www.instagram.com/kiet.mandjes_/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@roiky12" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.facebook.com/igor"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.youtube.com/channel/UCWTetQnaIb4wsvxbWbYIfXA"><i
+                        class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li class="mij">
+                Kiet Mandjes
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
